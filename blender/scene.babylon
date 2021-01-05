@@ -1,0 +1,11 @@
+{"producer":{"name":"Blender","version":"2.91.0","exporter_version":"2.80.0","file":"scene.babylon"},
+"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],
+"materials":[],
+"multiMaterials":[],
+"skeletons":[],
+"meshes":[],
+"morphTargetManagers":[],
+"cameras":[],
+"lights":[{"name":"点光","id":"点光","type":0,"position":[7.9686,11.5108,-9.0142],"range":40,"intensityMode":0,"intensity":1,"diffuse":[1,1,1],"specular":[1,1,1],"radius":0.25}],
+"shadowGenerators":[]
+}

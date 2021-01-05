@@ -4,16 +4,10 @@
 <head>
   <title>Default .babylon loading scene</title>
   <meta charset="UTF-8" />
-  <script src="https://cdn.cnbabylon.com/babylon.js"></script>
-  <script src="https://cdn.cnbabylon.com/materialsLibrary/babylonjs.materials.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/loaders/babylonjs.loaders.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/serializers/babylonjs.serializers.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/gui/babylon.gui.min.js"></script>
-  <script src="https://cdn.cnbabylon.com/inspector/babylon.inspector.bundle.js"></script>
+  <script src="js/babylon.js"></script>
+  <script src="js/babylonjs.loaders.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pep/0.4.0/jquery.pep.min.js"></script>
+  <script src="js/jquery.pep.js"></script>
   <style>
     html,
     body {
@@ -40,24 +34,10 @@
     var engine = new BABYLON.Engine(canvas, true);
     // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
     BABYLON.SceneLoader.Load("/blender/", "lights1.babylon", engine, function (scene) {
-      //as this .babylon example hasn't camera in it, we have to create one
-
-      // 参数顺序 : name相机名称, position相机放置的位置, scene场景实例
-      // var camera = new BABYLON.UniversalCamera("UniversalCamera", new BABYLON.Vector3(0, 0, -10), scene);
-
-      // //相机观察的目标，在这里表示：相机放在(0,0,-10)，镜头对准观察 (0,0,0)
-      // camera.setTarget(BABYLON.Vector3.Zero());
-
-      // // 让相机响应用户操作
-      // camera.attachControl(canvas, true);
       var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(-5, 5, -10), scene);
       camera.setTarget(BABYLON.Vector3.Zero());
       camera.attachControl(canvas, false);
-
-      scene.clearColor = new BABYLON.Color3(0.8, 0.8, 0.8);
-      // scene.ambientColor = new BABYLON.Color3.White();
-
-      // var light = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(1, 10, 1), scene);
+      
       engine.runRenderLoop(function () {
         scene.render();
       });

@@ -9,11 +9,13 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  D:\CUIT\ForeEnd\Babylon.js\blender\
+		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  猴头
-		processing begun of material:  材质.001
+		processing begun of material:  材质.005
+			processing texture u_2779984238_54714130_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
 		num positions      :  8414
 		num normals        :  8414
 		num tangents       :  0
@@ -21,24 +23,26 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  15488
-	processing begun of mesh:  立方体
-		WARNING: No materials have been assigned: 
-		num positions      :  29
-		num normals        :  29
+	processing begun of mesh:  球体
+		processing begun of material:  材质.003
+			processing texture u_2779984238_54714130_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  32466
+		num normals        :  32466
 		num tangents       :  0
-		num uvs            :  58
+		num uvs            :  64932
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  12
+		num triangles      :  61440
 	processing begun of light (POINT):  点光
+	WARNING: Only directional (sun) and spot types of lamp are valid for shadows thus ignored: 点光
 	processing begun of light (POINT):  点光.001
+	WARNING: Only directional (sun) and spot types of lamp are valid for shadows thus ignored: 点光.001
 	processing begun of light (SPOT):  点光.002
-	processing begun of light (POINT):  点光.003
-	processing begun of light (POINT):  点光.004
-	processing begun of light (SPOT):  聚光
+	processing begun of shadows for light:  点光.002
 ========= Writing of JSON file started =========
 	writing mesh:  猴头
-	writing mesh:  立方体
+	writing mesh:  球体
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.6935 secs
+elapsed time:  0 min, 5.2789 secs

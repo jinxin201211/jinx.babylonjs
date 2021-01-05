@@ -1,5 +1,5 @@
 {"producer":{"name":"Blender","version":"2.91.0","exporter_version":"2.80.0","file":"lights1.babylon"},
-"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],
+"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],"environmentTexture":"environment.env","isPBR":true,"environmentTextureRotationY":0,
 "materials":[],
 "multiMaterials":[],
 "skeletons":[],
@@ -2245,7 +2245,7 @@
 ,5701,0,2]
 ,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":8414,"indexStart":0,"indexCount":46464}]
 ,"instances":[]}
-,{"name":"立方体","id":"立方体","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[12.3546,12.3546,12.3546],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":true,"pickable":true,"tags":""
+,{"name":"立方体","id":"立方体","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[12.3546,12.3546,12.3546],"isVisible":true,"freezeWorldMatrix":true,"isEnabled":false,"checkCollisions":true,"receiveShadows":true,"pickable":true,"tags":""
 ,"positions":[-1,1,-1,-1,-1,1,-1,-1,-1,-1,1,1,1,-1,1,-1,-1,1,1,1,1,1,-1,-1,1,-1,1,1,1,-1,-1,-1,-1,1,-1,-1,1,-1,1,-1,-1,-1,-1,-1,1,-1,1,1,1,1,-1
 ,1,1,1,-1,1,1,1,1,1,1,1,-1,-1,1,-1,-1,-1,-1,1,-1,1,1,-1,-1,-1,-1,-1,-1,1,1,-1,1,-1,1,1,-1]
 ,"normals":[-1,0,0,-1,0,0,-1,0,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,0,0,-1,0,0,-1,0,0,-1,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0
