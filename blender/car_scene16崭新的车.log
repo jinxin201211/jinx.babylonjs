@@ -1,0 +1,226 @@
+Exporter version: 2.80.0, Blender version: 2.91.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\BaiduNetdiskDownload\carcar\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  ref_image_front
+	processing begun of mesh:  car_scale
+		WARNING: No materials have been assigned: 
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  ref_image.back
+	processing begun of node:  ref_image.side
+	processing begun of node:  ref_image.top
+	processing begun of mesh:  立方体
+		processing begun of material:  car.main.color
+		processing begun of material:  car.secondary.color
+		processing begun of material:  car.metal
+		processing begun of material:  car.window
+		processing begun of material:  car.license
+		processing begun of material:  car.headlights
+		processing begun of material:  car.backlights
+		processing begun of material:  car.indicator
+		processing begun of multimaterial:  car_scene16____.Multimaterial#0
+		num positions      :  3759
+		num normals        :  3759
+		num tangents       :  0
+		num uvs            :  7518
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3098
+	processing begun of mesh:  nozzle_front
+		processing begun of material:  car.main.color
+		processing begun of material:  car.metal
+		processing begun of material:  car.fire.001
+		processing begun of material:  car.burned
+		registered as also a user of material:  car.main.color
+		registered as also a user of material:  car.metal
+		processing begun of multimaterial:  car_scene16____.Multimaterial#1
+		num positions      :  512
+		num normals        :  512
+		num tangents       :  0
+		num uvs            :  1024
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  柱体.001
+		processing begun of material:  car.fire.001
+		registered as also a user of material:  car.fire.001
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+		WARNING: # of 0 area faces found:  14
+	processing begun of mesh:  nozzle_back
+		processing begun of material:  car.main.color
+		processing begun of material:  car.metal
+		processing begun of material:  car.fire.001
+		processing begun of material:  car.burned
+		registered as also a user of material:  car.main.color
+		registered as also a user of material:  car.metal
+		registered as also a user of material:  car.fire.001
+		registered as also a user of material:  car.burned
+		processing begun of multimaterial:  car_scene16____.Multimaterial#2
+		num positions      :  506
+		num normals        :  506
+		num tangents       :  0
+		num uvs            :  1012
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  柱体.002
+		processing begun of material:  car.fire.001
+		registered as also a user of material:  car.fire.001
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+		WARNING: # of 0 area faces found:  14
+	processing begun of mesh:  nozzle_front.001
+		processing begun of material:  car.main.color
+		processing begun of material:  car.metal
+		processing begun of material:  car.fire.001
+		processing begun of material:  car.burned
+		registered as also a user of material:  car.main.color
+		registered as also a user of material:  car.metal
+		registered as also a user of material:  car.fire.001
+		registered as also a user of material:  car.burned
+		processing begun of multimaterial:  car_scene16____.Multimaterial#3
+		num positions      :  506
+		num normals        :  506
+		num tangents       :  0
+		num uvs            :  1012
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  柱体.003
+		processing begun of material:  car.fire.001
+		registered as also a user of material:  car.fire.001
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+		WARNING: # of 0 area faces found:  14
+	processing begun of mesh:  nozzle_back.001
+		processing begun of material:  car.main.color
+		processing begun of material:  car.metal
+		processing begun of material:  car.fire.001
+		processing begun of material:  car.burned
+		registered as also a user of material:  car.main.color
+		registered as also a user of material:  car.metal
+		registered as also a user of material:  car.fire.001
+		registered as also a user of material:  car.burned
+		processing begun of multimaterial:  car_scene16____.Multimaterial#4
+		num positions      :  506
+		num normals        :  506
+		num tangents       :  0
+		num uvs            :  1012
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  柱体.004
+		processing begun of material:  car.fire.001
+		registered as also a user of material:  car.fire.001
+		num positions      :  76
+		num normals        :  76
+		num tangents       :  0
+		num uvs            :  152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+		WARNING: # of 0 area faces found:  14
+	processing begun of mesh:  dian lan
+		processing begun of material:  car.metal
+		registered as also a user of material:  car.metal
+		num positions      :  696
+		num normals        :  696
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1380
+		WARNING: # of 0 area faces found:  124
+	processing begun of mesh:  dian lan.001
+		processing begun of material:  car.metal
+		registered as also a user of material:  car.metal
+		num positions      :  316
+		num normals        :  316
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  628
+	processing begun of mesh:  dian lan.002
+		processing begun of material:  car.metal
+		registered as also a user of material:  car.metal
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  640
+		WARNING: # of 0 area faces found:  156
+	processing begun of mesh:  dian lan.003
+		processing begun of material:  car.metal
+		registered as also a user of material:  car.metal
+		num positions      :  252
+		num normals        :  252
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  496
+		WARNING: # of 0 area faces found:  108
+	processing begun of mesh:  dian lan.004
+		processing begun of material:  car.metal
+		registered as also a user of material:  car.metal
+		num positions      :  268
+		num normals        :  268
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  532
+========= Writing of JSON file started =========
+	writing mesh:  car_scale
+	writing mesh:  立方体
+	writing mesh:  nozzle_front
+	writing mesh:  柱体.001
+	writing mesh:  nozzle_back
+	writing mesh:  柱体.002
+	writing mesh:  nozzle_front.001
+	writing mesh:  柱体.003
+	writing mesh:  nozzle_back.001
+	writing mesh:  柱体.004
+	writing mesh:  dian lan
+	writing mesh:  dian lan.001
+	writing mesh:  dian lan.002
+	writing mesh:  dian lan.003
+	writing mesh:  dian lan.004
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.5984 secs
