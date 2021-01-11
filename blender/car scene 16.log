@@ -1,0 +1,243 @@
+Exporter version: 2.80.0, Blender version: 2.91.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  平面
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  石头组003
+		processing begun of material:  材质.005
+			processing texture u_3569741231_2248974116_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  12695
+		num normals        :  12695
+		num tangents       :  0
+		num uvs            :  25390
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5066
+		WARNING: # of 0 area faces found:  18
+	processing begun of mesh:  石头组004
+		processing begun of material:  材质.004
+			processing texture u_3569741231_2248974116_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  10734
+		num normals        :  10734
+		num tangents       :  0
+		num uvs            :  21468
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4232
+	processing begun of mesh:  石头组002
+		processing begun of material:  材质.002
+			processing texture u_3569741231_2248974116_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  9530
+		num normals        :  9530
+		num tangents       :  0
+		num uvs            :  19060
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3794
+		WARNING: # of 0 area faces found:  6
+	processing begun of mesh:  石头组001
+		processing begun of material:  材质.003
+			processing texture u_3569741231_2248974116_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  9277
+		num normals        :  9277
+		num tangents       :  0
+		num uvs            :  18554
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3716
+		WARNING: # of 0 area faces found:  12
+	processing begun of mesh:  石头组005
+		processing begun of material:  材质.006
+			processing texture u_3569741231_2248974116_fm_26_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  15071
+		num normals        :  15071
+		num tangents       :  0
+		num uvs            :  30142
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  5902
+	processing begun of mesh:  石头，原型
+		WARNING: No materials have been assigned: 
+		num positions      :  66
+		num normals        :  66
+		num tangents       :  0
+		num uvs            :  132
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  石头，常规
+		WARNING: No materials have been assigned: 
+		num positions      :  277
+		num normals        :  277
+		num tangents       :  0
+		num uvs            :  554
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  112
+	processing begun of mesh:  石头，平台
+		WARNING: No materials have been assigned: 
+		num positions      :  257
+		num normals        :  257
+		num tangents       :  0
+		num uvs            :  514
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  石头，矮
+		WARNING: No materials have been assigned: 
+		num positions      :  324
+		num normals        :  324
+		num tangents       :  0
+		num uvs            :  648
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  134
+	processing begun of mesh:  石头，碎石1
+		WARNING: No materials have been assigned: 
+		num positions      :  224
+		num normals        :  224
+		num tangents       :  0
+		num uvs            :  448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  88
+	processing begun of mesh:  石头，碎石2
+		WARNING: No materials have been assigned: 
+		num positions      :  257
+		num normals        :  257
+		num tangents       :  0
+		num uvs            :  514
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  石头，长
+		WARNING: No materials have been assigned: 
+		num positions      :  337
+		num normals        :  337
+		num tangents       :  0
+		num uvs            :  674
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  140
+	processing begun of mesh:  切割
+		WARNING: No materials have been assigned: 
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  树
+		WARNING: No materials have been assigned: 
+		num positions      :  733
+		num normals        :  733
+		num tangents       :  0
+		num uvs            :  1466
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  272
+	processing begun of mesh:  树.001
+		processing begun of material:  材质
+		num positions      :  768
+		num normals        :  768
+		num tangents       :  0
+		num uvs            :  1536
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  284
+	processing begun of mesh:  树.002
+		processing begun of material:  材质.001
+			processing texture u_3108232279_1222890489_fm_15_gp_0
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  1048
+		num normals        :  1048
+		num tangents       :  0
+		num uvs            :  2096
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  384
+	processing begun of mesh:  树.003
+		WARNING: No materials have been assigned: 
+		num positions      :  766
+		num normals        :  766
+		num tangents       :  0
+		num uvs            :  1532
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  280
+	processing begun of mesh:  草丛
+		WARNING: No materials have been assigned: 
+		num positions      :  1807
+		num normals        :  1807
+		num tangents       :  0
+		num uvs            :  3614
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  684
+	processing begun of mesh:  灌木
+		WARNING: No materials have been assigned: 
+		num positions      :  228
+		num normals        :  228
+		num tangents       :  0
+		num uvs            :  456
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  80
+	processing begun of mesh:  灌木.001
+		WARNING: No materials have been assigned: 
+		num positions      :  283
+		num normals        :  283
+		num tangents       :  0
+		num uvs            :  566
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  98
+========= Writing of JSON file started =========
+	writing mesh:  平面
+	writing mesh:  石头组003
+	writing mesh:  石头组004
+	writing mesh:  石头组002
+	writing mesh:  石头组001
+	writing mesh:  石头组005
+	writing mesh:  石头，原型
+	writing mesh:  石头，常规
+	writing mesh:  石头，平台
+	writing mesh:  石头，矮
+	writing mesh:  石头，碎石1
+	writing mesh:  石头，碎石2
+	writing mesh:  石头，长
+	writing mesh:  切割
+	writing mesh:  树
+	writing mesh:  树.001
+	writing mesh:  树.002
+	writing mesh:  树.003
+	writing mesh:  草丛
+	writing mesh:  灌木
+	writing mesh:  灌木.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 2.7603 secs
