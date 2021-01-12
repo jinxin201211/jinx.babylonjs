@@ -9,7 +9,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
+		Texture directory   :  D:\CUIT\ForeEnd\jinx.babylonjs\blender\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  car scale reference
@@ -39,13 +39,13 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		processing begun of material:  car rust
 		processing begun of material:  car scratches
 		processing begun of multimaterial:  car_scene_19.Multimaterial#0
-		num positions      :  4429
-		num normals        :  4429
+		num positions      :  4407
+		num normals        :  4407
 		num tangents       :  0
-		num uvs            :  8858
+		num uvs            :  8814
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  3436
+		num triangles      :  3428
 	processing begun of mesh:  引擎
 		processing begun of material:  car metal
 		registered as also a user of material:  car metal
@@ -213,4 +213,4 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 	writing mesh:  线缆4
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.6923 secs
+elapsed time:  0 min, 0.4553 secs
