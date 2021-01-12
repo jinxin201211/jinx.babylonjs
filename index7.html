@@ -34,45 +34,42 @@
     var engine = new BABYLON.Engine(canvas, true);
     // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
     BABYLON.SceneLoader.Load("/blender/", "car scene 19.babylon", engine, function (scene) {
-      var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(-30, 30, -30), scene);
+      var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(3, 0, -4), scene);
       camera.setTarget(BABYLON.Vector3.Zero());
       camera.attachControl(canvas, false);
       scene.clearColor = new BABYLON.Color3(0.8, 0.8, 0.8);
       // scene.ambientColor = new BABYLON.Color3.White();
 
 
-      var light_pos = new BABYLON.Vector3(-20, 13, -10);
-      var light = new BABYLON.PointLight("pointLight", light_pos, scene);
-      light.intensity = 3000;
-      var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-      sphere.position = light_pos;
+      // var light_pos = new BABYLON.Vector3(20, 13, -10);
+      // var light = new BABYLON.PointLight("pointLight", light_pos, scene);
+      // light.intensity = 3000;
+      // var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
+      // sphere.position = light_pos;
 
-      // var light_pos4 = new BABYLON.Vector3(20, 13, -10);
-      // var light4 = new BABYLON.PointLight("pointLight", light_pos4, scene);
-      // light4.intensity = 3000;
-      // var sphere4 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-      // sphere4.position = light_pos4;
-
-
-      var light_pos2 = new BABYLON.Vector3(25, -3, -4);
-      var light2 = new BABYLON.PointLight("pointLight", light_pos2, scene);
-      light2.intensity = 100;
-      var sphere2 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-      sphere2.position = light_pos2;
+      // var light_pos2 = new BABYLON.Vector3(-25, -3, -4);
+      // var light2 = new BABYLON.PointLight("pointLight", light_pos2, scene);
+      // light2.intensity = 100;
+      // var sphere2 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
+      // sphere2.position = light_pos2;
 
 
-      var light_pos3 = new BABYLON.Vector3(0, 0, 20);
-      var light3 = new BABYLON.SpotLight("spotLight", light_pos3, new BABYLON.Vector3(0, 0, -1), Math.PI / 3, 2, scene);
-      light3.intensity = 3000;
-      var sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-      sphere3.position = light_pos3;
+      // var light_pos3 = new BABYLON.Vector3(0, 0, 20);
+      // var light3 = new BABYLON.SpotLight("spotLight", light_pos3, new BABYLON.Vector3(0, 0, -1), Math.PI / 3, 2, scene);
+      // light3.intensity = 3000;
+      // var sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
+      // sphere3.position = light_pos3;
 
-      // var grass0 = new BABYLON.StandardMaterial("grass0", scene);
-      // grass0.diffuseTexture = new BABYLON.Texture("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2779984238,54714130&fm=26&gp=0.jpg", scene);
-      // grass0.specularTexture = new BABYLON.Texture("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2779984238,54714130&fm=26&gp=0.jpg", scene);
-      // grass0.emissiveTexture = new BABYLON.Texture("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2779984238,54714130&fm=26&gp=0.jpg", scene);
-      // grass0.ambientTexture = new BABYLON.Texture("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2779984238,54714130&fm=26&gp=0.jpg", scene);
-      // sphere.material = grass0;
+
+      var light_pos1 = new BABYLON.Vector3(0, -1, 0);
+      var light1 = new BABYLON.DirectionalLight("DirectionalLight", light_pos1, scene);
+      light1.intensity = 10;
+
+      var light_pos2 = new BABYLON.Vector3(0, 1, 0);
+      var light2 = new BABYLON.HemisphericLight("HemiLight", new BABYLON.Vector3(0, 1, 0), scene);
+      // light2.diffuse = new BABYLON.Color3(1, 1, 0);
+      // light2.specular = new BABYLON.Color3(1, 1, 0);
+      // light2.groundColor = new BABYLON.Color3(1, 1, 0);
 
       engine.runRenderLoop(function () {
         scene.render();
