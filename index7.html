@@ -33,7 +33,7 @@
     var canvas = document.getElementById("canvas");
     var engine = new BABYLON.Engine(canvas, true);
     // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
-    BABYLON.SceneLoader.Load("/blender/", "car scene 16.babylon", engine, function (scene) {
+    BABYLON.SceneLoader.Load("/blender/", "car scene 19.babylon", engine, function (scene) {
       var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(-30, 30, -30), scene);
       camera.setTarget(BABYLON.Vector3.Zero());
       camera.attachControl(canvas, false);
@@ -43,27 +43,27 @@
 
       var light_pos = new BABYLON.Vector3(-20, 13, -10);
       var light = new BABYLON.PointLight("pointLight", light_pos, scene);
-      light.intensity = 400;
+      light.intensity = 3000;
       var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
       sphere.position = light_pos;
 
-      var light_pos4 = new BABYLON.Vector3(20, 13, -10);
-      var light4 = new BABYLON.PointLight("pointLight", light_pos4, scene);
-      light4.intensity = 0.8;
-      var sphere4 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
-      sphere4.position = light_pos4;
+      // var light_pos4 = new BABYLON.Vector3(20, 13, -10);
+      // var light4 = new BABYLON.PointLight("pointLight", light_pos4, scene);
+      // light4.intensity = 3000;
+      // var sphere4 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
+      // sphere4.position = light_pos4;
 
 
-      var light_pos2 = new BABYLON.Vector3(25, 0, -4);
+      var light_pos2 = new BABYLON.Vector3(25, -3, -4);
       var light2 = new BABYLON.PointLight("pointLight", light_pos2, scene);
-      light2.intensity = 0.1;
+      light2.intensity = 100;
       var sphere2 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
       sphere2.position = light_pos2;
 
 
-      var light_pos3 = new BABYLON.Vector3(0, 0, 100);
+      var light_pos3 = new BABYLON.Vector3(0, 0, 20);
       var light3 = new BABYLON.SpotLight("spotLight", light_pos3, new BABYLON.Vector3(0, 0, -1), Math.PI / 3, 2, scene);
-      light3.intensity = 0.8;
+      light3.intensity = 3000;
       var sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, scene);
       sphere3.position = light_pos3;
 

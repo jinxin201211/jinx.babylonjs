@@ -1,0 +1,199 @@
+Exporter version: 2.80.0, Blender version: 2.91.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  car scale reference
+		processing begun of material:  Material
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of node:  car reference front
+	processing begun of node:  car reference back
+	processing begun of node:  car reference left
+	processing begun of node:  car reference top
+	processing begun of mesh:  车体
+		processing begun of material:  car main color
+		processing begun of material:  car secondary color
+		processing begun of material:  car metal
+		processing begun of material:  car window
+		processing begun of material:  car plate
+		processing begun of multimaterial:  car_scene_18.Multimaterial#0
+		num positions      :  3951
+		num normals        :  3951
+		num tangents       :  0
+		num uvs            :  7902
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3048
+	processing begun of mesh:  引擎
+		processing begun of material:  car metal
+		registered as also a user of material:  car metal
+		num positions      :  1129
+		num normals        :  1129
+		num tangents       :  0
+		num uvs            :  2258
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  468
+	processing begun of mesh:  车轮前1
+		processing begun of material:  car main color
+		processing begun of material:  car metal
+		registered as also a user of material:  car main color
+		registered as also a user of material:  car metal
+		processing begun of multimaterial:  car_scene_18.Multimaterial#1
+		num positions      :  666
+		num normals        :  666
+		num tangents       :  0
+		num uvs            :  1332
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  车轮火焰效果
+		WARNING: No materials have been assigned: 
+		num positions      :  136
+		num normals        :  136
+		num tangents       :  0
+		num uvs            :  272
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  62
+	processing begun of mesh:  车轮后1
+		processing begun of material:  car main color
+		processing begun of material:  car metal
+		registered as also a user of material:  car main color
+		registered as also a user of material:  car metal
+		processing begun of multimaterial:  car_scene_18.Multimaterial#2
+		num positions      :  667
+		num normals        :  667
+		num tangents       :  0
+		num uvs            :  1334
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  车轮火焰效果.001
+		WARNING: No materials have been assigned: 
+		num positions      :  136
+		num normals        :  136
+		num tangents       :  0
+		num uvs            :  272
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  62
+	processing begun of mesh:  车轮前2
+		processing begun of material:  car main color
+		processing begun of material:  car metal
+		registered as also a user of material:  car main color
+		registered as also a user of material:  car metal
+		processing begun of multimaterial:  car_scene_18.Multimaterial#3
+		num positions      :  666
+		num normals        :  666
+		num tangents       :  0
+		num uvs            :  1332
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  车轮火焰效果.002
+		WARNING: No materials have been assigned: 
+		num positions      :  136
+		num normals        :  136
+		num tangents       :  0
+		num uvs            :  272
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  62
+	processing begun of mesh:  车轮后2
+		processing begun of material:  car main color
+		processing begun of material:  car metal
+		registered as also a user of material:  car main color
+		registered as also a user of material:  car metal
+		processing begun of multimaterial:  car_scene_18.Multimaterial#4
+		num positions      :  666
+		num normals        :  666
+		num tangents       :  0
+		num uvs            :  1332
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  324
+	processing begun of mesh:  车轮火焰效果.003
+		WARNING: No materials have been assigned: 
+		num positions      :  136
+		num normals        :  136
+		num tangents       :  0
+		num uvs            :  272
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  62
+	processing begun of mesh:  线缆1
+		processing begun of material:  car metal
+		registered as also a user of material:  car metal
+		num positions      :  364
+		num normals        :  364
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  724
+	processing begun of mesh:  线缆2
+		processing begun of material:  car metal
+		registered as also a user of material:  car metal
+		num positions      :  292
+		num normals        :  292
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  580
+	processing begun of mesh:  线缆3
+		processing begun of material:  car metal
+		registered as also a user of material:  car metal
+		num positions      :  292
+		num normals        :  292
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  580
+	processing begun of mesh:  线缆4
+		processing begun of material:  car metal
+		registered as also a user of material:  car metal
+		num positions      :  388
+		num normals        :  388
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  772
+	processing begun of light (POINT):  点光
+========= Writing of JSON file started =========
+	writing mesh:  car scale reference
+	writing mesh:  车体
+	writing mesh:  引擎
+	writing mesh:  车轮前1
+	writing mesh:  车轮火焰效果
+	writing mesh:  车轮后1
+	writing mesh:  车轮火焰效果.001
+	writing mesh:  车轮前2
+	writing mesh:  车轮火焰效果.002
+	writing mesh:  车轮后2
+	writing mesh:  车轮火焰效果.003
+	writing mesh:  线缆1
+	writing mesh:  线缆2
+	writing mesh:  线缆3
+	writing mesh:  线缆4
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.6497 secs
