@@ -9,7 +9,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
+		Texture directory   :  D:\CUIT\ForeEnd\jinx.babylonjs\blender\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  棱角球.003
@@ -30,9 +30,19 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  360
+	processing begun of mesh:  平面
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
 ========= Writing of JSON file started =========
 	writing mesh:  棱角球.003
 	writing mesh:  球体
+	writing mesh:  平面
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.1544 secs
+elapsed time:  0 min, 0.1481 secs
