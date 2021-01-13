@@ -1,7 +1,7 @@
 Exporter version: 2.80.0, Blender version: 2.91.0
 ========= Conversion from Blender to Babylon.js =========
 	Scene settings used :
-		Inline textures     :  false
+		Inline textures     :  true
 		Material Type       :  PBR
 		Positions Precision :  4
 		Normals Precision   :  3
@@ -9,7 +9,6 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
 	processing begun of mesh:  平面
@@ -18,270 +17,91 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 		num normals        :  4
 		num tangents       :  0
 		num uvs            :  8
-		num uvs2           :  0
+		num uvs2           :  8
 		num colors         :  0
 		num triangles      :  2
 	processing begun of mesh:  石头组003
-		processing begun of material:  rock
+		processing begun of material:  rock.002
 			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
 			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_003_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 11.4968 secs
-		num positions      :  12695
-		num normals        :  12695
+			bake time:  0 min, 11.0609 secs
+		num positions      :  12907
+		num normals        :  12907
 		num tangents       :  0
-		num uvs            :  25390
+		num uvs            :  25814
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  5066
-		WARNING: # of 0 area faces found:  18
+		WARNING: # of 0 area faces found:  6
 	processing begun of mesh:  石头组004
-		processing begun of material:  rock.001
+		processing begun of material:  rock.002
 			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
 			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_004_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 14.5795 secs
-		num positions      :  10734
-		num normals        :  10734
+			bake time:  0 min, 14.2108 secs
+		num positions      :  10781
+		num normals        :  10781
 		num tangents       :  0
-		num uvs            :  21468
+		num uvs            :  21562
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4232
-	processing begun of mesh:  石头组002
-		processing begun of material:  rock.003
-			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
-			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
-			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_002_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 11.1848 secs
-		num positions      :  9530
-		num normals        :  9530
-		num tangents       :  0
-		num uvs            :  19060
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  3794
 		WARNING: # of 0 area faces found:  6
-	processing begun of mesh:  石头组001
-		processing begun of material:  rock.004
-			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
-			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
-			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_001_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 11.0644 secs
-		num positions      :  9277
-		num normals        :  9277
-		num tangents       :  0
-		num uvs            :  18554
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  3716
-		WARNING: # of 0 area faces found:  12
-	processing begun of mesh:  石头组005
+	processing begun of mesh:  石头组002
 		processing begun of material:  rock.002
 			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
 			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_005_DIFFUSE
+			processing texture baked_002_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 11.0213 secs
-		num positions      :  15071
-		num normals        :  15071
+			bake time:  0 min, 17.4681 secs
+		num positions      :  9463
+		num normals        :  9463
 		num tangents       :  0
-		num uvs            :  30142
+		num uvs            :  18926
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  5902
-	processing begun of mesh:  石头，原型
-		WARNING: No materials have been assigned: 
-		num positions      :  66
-		num normals        :  66
-		num tangents       :  0
-		num uvs            :  132
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  28
-	processing begun of mesh:  石头，常规
-		WARNING: No materials have been assigned: 
-		num positions      :  277
-		num normals        :  277
-		num tangents       :  0
-		num uvs            :  554
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  112
-	processing begun of mesh:  石头，平台
-		WARNING: No materials have been assigned: 
-		num positions      :  257
-		num normals        :  257
-		num tangents       :  0
-		num uvs            :  514
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  104
-	processing begun of mesh:  石头，矮
-		WARNING: No materials have been assigned: 
-		num positions      :  324
-		num normals        :  324
-		num tangents       :  0
-		num uvs            :  648
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  134
-	processing begun of mesh:  石头，碎石1
-		WARNING: No materials have been assigned: 
-		num positions      :  224
-		num normals        :  224
-		num tangents       :  0
-		num uvs            :  448
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  石头，碎石2
-		WARNING: No materials have been assigned: 
-		num positions      :  257
-		num normals        :  257
-		num tangents       :  0
-		num uvs            :  514
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  104
-	processing begun of mesh:  石头，长
-		WARNING: No materials have been assigned: 
-		num positions      :  337
-		num normals        :  337
-		num tangents       :  0
-		num uvs            :  674
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  140
-	processing begun of mesh:  切割
-		WARNING: No materials have been assigned: 
-		num positions      :  24
-		num normals        :  24
-		num tangents       :  0
-		num uvs            :  48
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  8
-	processing begun of mesh:  树
-		processing begun of material:  tree.004
-			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
-			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
-			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 1.0006 secs
-		num positions      :  733
-		num normals        :  733
-		num tangents       :  0
-		num uvs            :  1466
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  272
-	processing begun of mesh:  树.001
-		processing begun of material:  tree.002
+		num triangles      :  3794
+		WARNING: # of 0 area faces found:  8
+	processing begun of mesh:  石头组001
+		processing begun of material:  rock.002
 			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
 			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_001_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 0.8463 secs
-		num positions      :  768
-		num normals        :  768
+			bake time:  0 min, 21.7512 secs
+		num positions      :  9420
+		num normals        :  9420
 		num tangents       :  0
-		num uvs            :  1536
+		num uvs            :  18840
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  284
-	processing begun of mesh:  树.002
-		processing begun of material:  tree.003
+		num triangles      :  3716
+		WARNING: # of 0 area faces found:  10
+	processing begun of mesh:  石头组005
+		processing begun of material:  rock.002
 			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
 			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
-			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_002_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 0.8253 secs
-		num positions      :  1048
-		num normals        :  1048
-		num tangents       :  0
-		num uvs            :  2096
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  384
-	processing begun of mesh:  树.003
-		processing begun of material:  tree.001
-			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
-			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
-			Baking texture, type: DIFFUSE, mapped using: UV 贴图
-			processing texture baked_003_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 0.7756 secs
-		num positions      :  766
-		num normals        :  766
-		num tangents       :  0
-		num uvs            :  1532
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  280
-	processing begun of mesh:  草丛
-		processing begun of material:  草
-		num positions      :  1807
-		num normals        :  1807
-		num tangents       :  0
-		num uvs            :  3614
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  684
-	processing begun of mesh:  灌木
-		processing begun of material:  草
-		registered as also a user of material:  草
-		num positions      :  228
-		num normals        :  228
-		num tangents       :  0
-		num uvs            :  456
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  灌木.001
-		processing begun of material:  草
-		registered as also a user of material:  草
-		num positions      :  283
-		num normals        :  283
-		num tangents       :  0
-		num uvs            :  566
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  98
-========= Writing of JSON file started =========
-	writing mesh:  平面
-	writing mesh:  石头组003
-	writing mesh:  石头组004
-	writing mesh:  石头组002
-	writing mesh:  石头组001
-	writing mesh:  石头组005
-	writing mesh:  石头，原型
-	writing mesh:  石头，常规
-	writing mesh:  石头，平台
-	writing mesh:  石头，矮
-	writing mesh:  石头，碎石1
-	writing mesh:  石头，碎石2
-	writing mesh:  石头，长
-	writing mesh:  切割
-	writing mesh:  树
-	writing mesh:  树.001
-	writing mesh:  树.002
-	writing mesh:  树.003
-	writing mesh:  草丛
-	writing mesh:  灌木
-	writing mesh:  灌木.001
-========= Writing of JSON file completed =========
+			WARNING: Metal channel baking required, but not possible, ignored
+			WARNING: Roughness channel baking required, but not possible, ignored
+			WARNING: Refraction channel baking required, but not possible, ignored
+========= An error was encountered =========
+  File "C:\Users\jinxi\AppData\Roaming\Blender Foundation\Blender\2.91\scripts\addons\babylon_js\json_exporter.py", line 115, in execute
+    mesh = Mesh(object, scene, self)
+  File "C:\Users\jinxi\AppData\Roaming\Blender Foundation\Blender\2.91\scripts\addons\babylon_js\mesh.py", line 146, in __init__
+    recipe = BakingRecipe(bpyMesh, exporter)
+  File "C:\Users\jinxi\AppData\Roaming\Blender Foundation\Blender\2.91\scripts\addons\babylon_js\materials\baking_recipe.py", line 105, in __init__
+    self.bakedMaterial.bake(bpyMesh, self)
+  File "C:\Users\jinxi\AppData\Roaming\Blender Foundation\Blender\2.91\scripts\addons\babylon_js\materials\material.py", line 139, in bake
+    bpy.ops.uv.smart_project(angle_limit = 66.0, island_margin = 0.0, user_area_weight = 1.0, use_aspect = True, stretch_to_bounds = True)
+  File "C:\Program Files\Blender Foundation\Blender 2.91\2.91\scripts\modules\bpy\ops.py", line 132, in __call__
+    ret = _op_call(self.idname_py(), None, kw)
+ERROR:  Converting py args to operator properties: : keyword "user_area_weight" unrecognized
 ========= end of processing =========
-elapsed time:  1 min, 5.4118 secs
+elapsed time:  1 min, 12.2992 secs
