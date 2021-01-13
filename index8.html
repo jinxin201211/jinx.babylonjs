@@ -42,11 +42,11 @@
 
       var light_pos1 = new BABYLON.Vector3(0, -1, 0);
       var light1 = new BABYLON.DirectionalLight("DirectionalLight", light_pos1, scene);
-      light1.intensity = 1000;
+      // light1.intensity = 100;
 
       var light_pos2 = new BABYLON.Vector3(0, 0, 0);
       var light2 = new BABYLON.HemisphericLight("HemiLight", new BABYLON.Vector3(0, 1, 0), scene);
-      light2.intensity = 100;
+      // light2.intensity = 100;
 
       engine.runRenderLoop(function () {
         scene.render();

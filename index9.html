@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Default .babylon loading scene</title>
+  <meta charset="UTF-8" />
+  <script src="js/babylon.js"></script>
+  <script src="js/babylonjs.loaders.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.pep.js"></script>
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    #canvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <script type="text/javascript">
+    var canvas = document.getElementById("canvas");
+    var engine = new BABYLON.Engine(canvas, true);
+    // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
+    BABYLON.SceneLoader.Load("/blender/", "raining.babylon", engine, function (scene) {
+      var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(10, 10, -10), scene);
+      camera.setTarget(BABYLON.Vector3.Zero());
+      camera.attachControl(canvas, false);
+      scene.clearColor = new BABYLON.Color3(0.8, 0.8, 0.8);
+      // scene.ambientColor = new BABYLON.Color3.White();
+
+      var light_pos1 = new BABYLON.Vector3(0, -1, 0);
+      var light1 = new BABYLON.DirectionalLight("DirectionalLight", light_pos1, scene);
+      // light1.intensity = 100;
+
+      var light_pos2 = new BABYLON.Vector3(0, 0, 0);
+      var light2 = new BABYLON.HemisphericLight("HemiLight", new BABYLON.Vector3(0, 1, 0), scene);
+      // light2.intensity = 100;
+
+      engine.runRenderLoop(function () {
+        scene.render();
+      });
+      window.addEventListener("resize", function () {
+        engine.resize();
+      });
+    });
+  </script>
+</body>
+
+</html>
