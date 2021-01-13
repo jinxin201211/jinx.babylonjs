@@ -27,7 +27,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_003_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 11.0609 secs
+			bake time:  0 min, 41.4752 secs
 		num positions      :  12907
 		num normals        :  12907
 		num tangents       :  0
@@ -43,7 +43,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_004_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 14.2108 secs
+			bake time:  0 min, 34.073 secs
 		num positions      :  10781
 		num normals        :  10781
 		num tangents       :  0
@@ -59,7 +59,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_002_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 17.4681 secs
+			bake time:  0 min, 15.6144 secs
 		num positions      :  9463
 		num normals        :  9463
 		num tangents       :  0
@@ -75,7 +75,7 @@ Exporter version: 2.80.0, Blender version: 2.91.0
 			Baking texture, type: DIFFUSE, mapped using: UV 贴图
 			processing texture baked_001_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "UV 贴图"
-			bake time:  0 min, 21.7512 secs
+			bake time:  0 min, 13.4904 secs
 		num positions      :  9420
 		num normals        :  9420
 		num tangents       :  0
@@ -104,4 +104,4 @@ Exporter version: 2.80.0, Blender version: 2.91.0
     ret = _op_call(self.idname_py(), None, kw)
 ERROR:  Converting py args to operator properties: : keyword "user_area_weight" unrecognized
 ========= end of processing =========
-elapsed time:  1 min, 12.2992 secs
+elapsed time:  1 min, 45.9898 secs
