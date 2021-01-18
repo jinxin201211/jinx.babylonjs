@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Default .babylon loading scene</title>
+  <meta charset="UTF-8" />
+  <script src="js/babylon.js"></script>
+  <script src="js/babylonjs.loaders.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.pep.js"></script>
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    #canvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <script type="text/javascript">
+    var canvas = document.getElementById("canvas");
+    var engine = new BABYLON.Engine(canvas, true);
+    // here the doc for Load function: //doc.babylonjs.com/typedoc/classes/babylon.sceneloader#load
+    BABYLON.SceneLoader.Load("/blender/", "focus distance1.babylon", engine, function (scene) {
+      var camera = new BABYLON.ArcRotateCamera("Camera", 1, 1, 4, new BABYLON.Vector3(-5, 5, -10), scene);
+      camera.setTarget(BABYLON.Vector3.Zero());
+      camera.attachControl(canvas, false);
+      scene.clearColor = new BABYLON.Color3(0.8, 0.8, 0.8);
+      // scene.ambientColor = new BABYLON.Color3.White();
+
+
+      var light_pos = new BABYLON.Vector3(-8, 10, -8);
+      var light = new BABYLON.PointLight("pointLight", light_pos, scene);
+      light.intensity = 50;
+      var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 0.1 }, scene);
+      sphere.position = light_pos;
+
+
+      var light_pos2 = new BABYLON.Vector3(8, -1, -8);
+      var light2 = new BABYLON.PointLight("pointLight", light_pos2, scene);
+      light2.intensity = 3;
+      var sphere2 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 0.1 }, scene);
+      sphere2.position = light_pos2;
+
+
+      var light_pos3 = new BABYLON.Vector3(0, 0, 8);
+      var light3 = new BABYLON.SpotLight("spotLight", light_pos3, new BABYLON.Vector3(0, 0, -1), Math.PI / 3, 2, scene);
+      light3.intensity = 50;
+      var sphere3 = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 0.1 }, scene);
+      sphere3.position = light_pos3;
+
+      engine.runRenderLoop(function () {
+        scene.render();
+      });
+      window.addEventListener("resize", function () {
+        engine.resize();
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+Exporter version: 2.80.0, Blender version: 2.91.0
+========= An error was encountered =========
+  File "C:\Users\Walkman\AppData\Roaming\Blender Foundation\Blender\2.91\scripts\addons\babylon_js\json_exporter.py", line 47, in execute
+    if self.settings.writeCsvFile:
+ERROR:  'NoneType' object has no attribute 'writeCsvFile'
+========= end of processing =========
+elapsed time:  0 min, 0.002 secs
