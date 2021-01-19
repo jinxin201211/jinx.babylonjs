@@ -1,0 +1,97 @@
+Exporter version: 2.80.0, Blender version: 2.91.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Repository\jinx.babylonjs\blender\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  立方体.001
+		WARNING: No materials have been assigned: 
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  station
+		processing begun of material:  材质
+		processing begun of material:  材质.001
+		processing begun of material:  材质.002
+		processing begun of multimaterial:  bus_station.Multimaterial#0
+		num positions      :  3177
+		num normals        :  3177
+		num tangents       :  0
+		num uvs            :  6354
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1504
+		WARNING: # of 0 area faces found:  216
+	processing begun of mesh:  公交站台.广告1
+		processing begun of material:  广告材质
+			processing texture src_http___cbu01_alicdn_com_img_ibank_2016_674_195_3705591476_173417473_jpg_refer_http___cbu01_alicdn
+				texture type:  diffuseTexture, mapped using: "UV 贴图"
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  公交站台.002
+		processing begun of material:  材质
+		processing begun of material:  材质.001
+		processing begun of material:  材质.002
+		registered as also a user of material:  材质
+		registered as also a user of material:  材质.001
+		registered as also a user of material:  材质.002
+		processing begun of multimaterial:  bus_station.Multimaterial#1
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  公交站台.广告2
+		processing begun of material:  材质
+		processing begun of material:  材质.001
+		processing begun of material:  广告材质
+		registered as also a user of material:  材质
+		registered as also a user of material:  材质.001
+		registered as also a user of material:  广告材质
+		processing begun of multimaterial:  bus_station.Multimaterial#2
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  ground
+		processing begun of material:  地面材质
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of node:  SC building 4x4 5
+========= Writing of JSON file started =========
+	writing mesh:  立方体.001
+	writing mesh:  station
+	writing mesh:  公交站台.广告1
+	writing mesh:  公交站台.002
+	writing mesh:  公交站台.广告2
+	writing mesh:  ground
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.583 secs
