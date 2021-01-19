@@ -48,14 +48,9 @@
       var light2 = new BABYLON.HemisphericLight("HemiLight", new BABYLON.Vector3(0, 1, 0), scene);
       light2.intensity = 2;
 
-
-      //we can now access to our static objects
       var ground = scene.getMeshByName("ground");
       ground.receiveShadows = true;
-
       var station = scene.getMeshByName("station");
-
-      //adding dynamic shadows
       var shadowGenerator = new BABYLON.ShadowGenerator(64, light1);
       shadowGenerator.useExponentialShadowMap = true;
       shadowGenerator.setDarkness(0.9);
